@@ -1,0 +1,26 @@
+<launch>
+
+
+  <!-- load parameters to parameter server through yaml file -->
+ 
+  <rosparam file="$(find omni_bot)/config/bot_params.yaml" />
+
+  <!-- launch turtle sim -->
+  
+
+  <node name="readNode" pkg="omni_bot" type="readNode" output="screen"/>
+  <node name="controlNode" pkg="omni_bot" type="controlNode" output="screen"/>
+
+  
+
+  
+
+  
+  
+
+
+ 
+
+
+
+</launch>

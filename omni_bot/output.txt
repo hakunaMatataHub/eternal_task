@@ -1,0 +1,3 @@
+3.82449,400,400,400,400,counterclockwise,0,0,5613,-5613,backward
+9.59893,1004,1004,1004,1004,counterclockwise,0,0,5083,-5083,backward
+11.5428,-1208,-1208,-1208,-1208,clockwise,0,0,4921,-4921,backward

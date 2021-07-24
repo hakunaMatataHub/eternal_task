@@ -1,0 +1,6 @@
+dist_s1_s2: 30
+dist_m1_m2: 30
+dist_m3_m4: 30
+wheelD: 5
+ppr: 2000
+emulate: false
