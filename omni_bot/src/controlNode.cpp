@@ -62,7 +62,7 @@ void Controller::sensorMsgs_callback(const omni_bot::sensorMsg::ConstPtr& msg)
 
   if(dist2Wall<=30)
   {
-    double pulse = abs(((dist2Wall-30)/wheelD)*2000);
+    double pulse = abs(((dist2Wall-30)/(3.14*wheelD))*2000);
     setDistance[0] =0;
     setDistance[1] =0;
     setDistance[2] = (int)pulse;
