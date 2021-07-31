@@ -25,7 +25,7 @@ void Controller::sensorMsgs_callback(const omni_bot::sensorMsg::ConstPtr& msg)
 
 	std::cout<<"recieved" <<s1<<"  "<<s2<< std::endl;
 
-	angle = asin(abs(s1-s2)/dist_s1_s2);
+	angle = atan(abs(s1-s2)/dist_s1_s2);
 	if(s1>s2)
 		direction1 ="clockwise";
 	if(s2>s1)
