@@ -49,7 +49,7 @@ void Controller::sensorMsgs_callback(const omni_bot::sensorMsg::ConstPtr& msg)
 		setAngle[3] = (int)pulse;
 	}
 
-  double dist2Wall = std::min(s1,s2) + (dist_s1_s2*0.5)*sin(angle) + (dist_m1_m2*0.5)*cos(angle);
+  double dist2Wall = std::min(s1*cos(angle),s2*cos(angle)) + (dist_s1_s2*0.5)*sin(angle) + (dist_m1_m2*0.5)*cos(angle);
   if(dist2Wall>30)
   {
     double pulse = abs(((dist2Wall-30)/wheelD)*2000);

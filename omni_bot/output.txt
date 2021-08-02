@@ -1,3 +1,3 @@
-3.81601,127,127,127,127,counterclockwise,0,0,768,-768,backward
-9.46712,315,315,315,315,counterclockwise,0,0,94,-94,backward
-11.3157,-377,-377,-377,-377,clockwise,0,0,44,-44,backward
+3.81601,127,127,127,127,counterclockwise,0,0,771,-771,backward
+9.46712,315,315,315,315,counterclockwise,0,0,114,-114,backward
+11.3157,-377,-377,-377,-377,clockwise,0,0,74,-74,backward
